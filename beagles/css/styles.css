@@ -1,0 +1,200 @@
+/* CSS Document */
+/**
+Color
+#000000-black
+#FF0000-red
+#FCFFFE-white
+
+Fonts
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Open Sans', sans-serif;
+****/
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+	color: #FCFFFE;
+}
+
+
+h1, h2, h3, h4, h5, h6, ul, li, a, blockquote {
+    padding: 0;
+    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+header {
+    background-color: #FCFFFE;
+    min-height: 250px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 10em;
+    margin-top: -.2em;
+    margin-bottom: -.6em;
+	color: #000000;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 3em;
+    color: #FCFFFE;
+    text-align: center;
+    text-shadow: 3px 3px 5px #11181E,
+                -2px -2px 5px #11181E,
+        		 2px -2px 5px #11181E,
+        		-2px 2px 5px #11181E,
+       			 2px 2px 5px #11181E;
+}
+
+
+.hNav {
+    padding: 5px 0;
+    background: #FCFFFE ;
+}
+
+.hNav ul {
+    display: block;
+    padding-left: 100px;
+}
+
+.hNav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.hNav a {
+    color:#000000;
+    font-size: 1.7em;
+    padding: 0 1.3em;
+    text-decoration: none;
+}
+
+.hNav a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    /*border: 2px solid black;*/
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.puppy {
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    border: 5px solid #FCFFFE;
+    border-radius: 40px 0 40px 0;
+    max-width: 400px;
+}
+
+.puppyL {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    border: 5px solid #FCFFFE;
+    border-radius: 40px 0 40px 0;
+    max-width: 400px;
+}
+
+h1 {
+    
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #FCFFFE;
+}
+
+blockquote {
+    
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px 0;
+}
+
+input {
+    height: 3em;
+    width: 20em;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color:#FCFFFE;
+    color:#000000;
+    border: 5px double #FF0000;
+}
+
+.frmButton {
+    margin-left: 15px;
+    width: 10em;
+    background-color: #FCFFFE;
+}
+
+.frmButton:hover {
+    background-color: #FF0000;
+    color: #000000;
+}
+
+label {
+    padding: 0 25px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+footer {
+    clear: both;
+    background-color: #000000;
+    height: 150px;
+}
+
+footer nav ul {
+    display: block;
+    float: right;
+}
+
+footer nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 1em;
+}
+
+footer nav ul li a {
+    color: #FCFFFE;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+    
+footer nav ul li a:hover {
+    color: #FCFFFE;
+    text-decoration: underline;
+}
+
+footer p {
+    clear: right;
+    float: right;
+    color: #FCFFFE;
+    font-weight: bold;
+    text-align: center;
+    margin: 2px;
+    margin-right: 50px;
+}
+    
