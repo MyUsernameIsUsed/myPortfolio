@@ -1,0 +1,185 @@
+/* color scheme ------------------------------
+black - #000000
+blue - #7bd0d7
+red- #ff0000
+purple - b493e0
+white - fcfffe
+****************************************/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Merriweather:wght@700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+/*****fonts *************************************
+	font-family: 'Bungee Hairline', cursive;
+	font-family: 'Merriweather', serif;
+	font-family: 'Roboto', sans-serif;
+---------------------------------------------*/
+
+/* CSS Reset ------------------------------*/
+body, header, nav, footer, h1, div, img, p, ul, li, main{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/**********Box Model Fix ***************/
+html{
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+body{
+	background: url("../images/portfolio.png") top left;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/**************Header Section**************************/
+
+header {
+	width: 100%;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+}
+header h1{
+	font-family: 'Bungee Hairline', cursive;
+	font-size: 6em;
+	color: #FCFFFE;
+	margin-top: -75px;
+	padding-top: 1em;
+	padding-left: 200px;
+	text-shadow: 10px 10px 15px #00000088;
+}
+header h2{
+	font-family: 'Merriweather', serif;
+	font-size: 2em;
+	color:#FCFFFE;
+	margin-top: -10px;
+	padding-left: 225px;
+}
+header nav{
+	background-color: #00000033;
+	padding: 20px 200px 5px 0; /*TRBL*/
+	min-height: 75px;
+}
+
+header nav ul{
+	list-style-type: none;
+	margin: 0;
+	text-align: right;
+}
+
+header nav li {
+	display: inline-block;
+	font-family: 'Bungee Hairline', cursive;
+	font-weight: bold;
+}
+
+header nav a{
+	color: #FCFFFE;
+	text-decoration: none;
+	padding: 15px 0 0 15px;
+	font-size: 1.5em;
+}
+
+header nav a:hover{
+	color: #FCFFFE;
+	text-decoration: underline;
+}
+/******************* End of Header Section *****************/
+
+/*************Main Section *********************************/
+
+
+/*************Projects Section ********************************/
+#projects {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #00000099;
+	font-family: 'Merriweather', serif;
+	font-size: 2em;
+	color: #FCFFFE;
+}
+
+#projects img {
+	float: left;
+	margin-right: 100px;
+	justify-content: center;
+}
+
+#projects p{
+	margin-top: 75px;
+	justify-content: center;
+}
+/*************End Projects Section *****************************/
+/*********About section****************************************/
+#about{
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color:#00000099;
+	font-family: 'Merriweather', serif;
+	font-size: 2em;
+	color: #FCFFFE;
+		
+}
+
+#about img {
+	float: left;
+	margin-right: 100px;
+	justify-content: center;
+}
+
+#about p{
+	margin-top: 75px;
+	justify-content: center;
+}
+/**************** End about section**************************/
+
+/******************End main section**************************/
+/********************Footer section***********************/
+
+footer{
+	background: #00000099;
+	color: #fff;
+	min-height: 500px;
+	text-align: center;
+} 
+
+
+footer nav{
+	background: #00000088;
+	padding: 10px 0; /*TRBL*/
+	min-height: 25px;
+}
+
+footer nav ul{
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+footer nav li {
+	display: inline-block;
+	font-family: 'Bungee Hairline', cursive;
+	font-weight: bold;
+	margin: 0 2em;
+}
+
+footer nav a{
+	color: #FCFFFE;
+	text-decoration: none;
+	padding: 15px 0 0 15px;
+	font-size: 1em;
+}
+
+footer nav a:hover{
+	color: #FCFFFE;
+	text-decoration: underline;
+}
