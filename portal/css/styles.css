@@ -130,6 +130,61 @@ header nav a:hover{
 		
 }
 
+#objective{
+	margin: 0;
+	padding: 5%;
+	min-height: 200px;
+	width: 100%;
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	color: #FCFFFE;
+	text-align: center;	
+}
+
+#education{
+	margin: 0;
+	padding: 5%;
+	min-height: 200px;
+	width: 100%;
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	color: #FCFFFE;
+	text-align: center;		
+}
+
+#awards{
+	margin: 0;
+	padding: 5%;
+	min-height: 200px;
+	width: 100%;
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	color: #FCFFFE;
+	text-align: center;		
+}
+
+#work{
+	margin: 0;
+	padding: 5%;
+	min-height: 200px;
+	width: 100%;
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	color: #FCFFFE;
+	text-align: center;		
+}
+
+#activities{
+	margin: 0;
+	padding: 5%;
+	min-height: 200px;
+	width: 100%;
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	color: #FCFFFE;
+	text-align: center;		
+}
+
 #about img {
 	float: left;
 	margin-right: 100px;
